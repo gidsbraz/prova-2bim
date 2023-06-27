@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #eaeaea;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#all {
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+}
+
+img {
+  width: 450px;
+  height: 525px;
+}
+
+#principal {
+  display: block;
+  align-items: center;
+  justify-content: left;
+
+  background-color: #ffffff;
+
+  padding-left: 35px;
+  padding-right: 40px;
+}
+
+h1 {
+  color: #2b2b2b;
+
+  font-size: 32px;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 700;
+  margin-top: 91px;
+}
+
+label {
+  color: #2b2b2b;
+
+  font-size: 16px;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 300;
+}
+
+input {
+  padding: 14px 150px 14px 20px;
+  border: 1px solid;
+  border-radius: 12px;
+  border-color: 737373;
+
+  color: #737373;
+
+  font-size: 16px;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 300;
+}
+
+.emailForm {
+  margin-top: 15px;
+}
+
+.passForm {
+  margin-top: 15px;
+}
+
+#end {
+  margin-top: 29px;
+}
+
+button {
+  
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-size: 16px;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 500;
+
+  background-color: #c70000;
+  padding: 15px 136px 15px 150px;
+  border-radius: 12px;
+  margin-top: 29px;
+
+  cursor: pointer;
+}
+
+a{
+  color: #2b2b2b;
+  font-size: 13px;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 400;
+  text-decoration: none;
+
+  cursor: pointer;
+  display: flex;
+  justify-content:left;
+  
+  margin-top: 10px;
+}
